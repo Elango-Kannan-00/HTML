@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>
+            Internal CSS
+        </title>
+        <style>
+            body{
+                background-color:red;    
+            }
+            
+        </style>
+    </head>
+    <body>
+        <p>Hi, this is an example for Internal CSS. </p>
+    </body>
+</html>
