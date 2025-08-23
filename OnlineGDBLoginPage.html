@@ -21,17 +21,32 @@
                 margin-top: 20px;
                 margin-left: 125px;
             }
+            .table5 {
+                text-align: center;
+                border-collapse: collapse;
+            }
             .table1 td{
+                font-family: Arial;
                 border: 1px solid black;
                 padding: 10px 50px 10px 50px;
             }
             .table2 td{
+                font-family: Arial;
                 border-radius: 3px;
                 border: 1px solid black;
             }
-             .table4 td{
+            .table4 td{
+                font-family: Arial;
                 text-align: center;
                 border: 1px solid black;
+            }
+            .table5 td{
+                font-family: Arial;
+                border: 1px solid white;
+                background-color: #4682B4;
+            }
+            #sidebar{
+                width: 280px;
             }
             #one{
                 padding: 10px 500px 10px 10px;
@@ -47,26 +62,59 @@
                 border-radius: 3px;
                 padding: 10px 150px 10px 150px;
             }
+            #innertable {
+                padding-left: 100px;
+            }
         </style>
     </head>
     <body>
-        <table class="table1">
+        <table>
             <tr>
-                <td style="background-color: red; color: white">Google+</td>
-                <td style="background-color: blue; color: white">Facebook</td>
-                <td style="background-color: grey; color: white">Github</td>
-            </tr>
-        </table>
-        <table class="table2">
-                <tr><td  id="one">Email</td></tr>
-                <tr><td  id="two">Password</td></tr>
-        </table>
-        <table class="table3">
-                <tr><td  style="background-color: skyblue; color: white" id="three">LOG IN</td></tr>
-        </table>
-        <table class="table4">
-            <tr>
-                <td id="four">Don't have account yet? Register</td>
+                <td>
+                    <table class="table5">
+                        <tr><td id="sidebar" style="padding: 5px 0 5px 0; color: white">$$ Online GDB<br>Online compiler and Debugger for c/c++</td></tr>
+                        <tr><td style="color: white; padding: 5px 0 5px 0"><i>code. compile. run. debug. share</i></td></tr>
+                        <tr><td style="background-color: #4B9CD3; color: white; padding: 2px 0 2px 0">IDE</td></tr>
+                        <tr><td style="background-color: #4B9CD3; color: white; padding: 2px 0 2px 0">My Projects</td></tr>
+                        <tr><td style="background-color: #4B9CD3; color: white; padding: 2px 0 2px 0">Classroom </td></tr>
+                        <tr><td style="background-color: #4B9CD3; color: white; padding: 2px 0 2px 0">Learn Programming</td></tr>
+                        <tr><td style="background-color: #4B9CD3; color: white; padding: 2px 0 2px 0">Programming Questions</td></tr>
+                        <tr><td style="background-color: #4B9CD3; color: white; padding: 2px 0 2px 0">Sign Up</td></tr>
+                        <tr><td style="background-color: #4B9CD3; color: white; padding: 2px 0 2px 0">Login</td></tr>
+                        <tr><td style="background-color: #4682B4; padding: 0 0 70px 0"></td></tr>
+                        <tr><td style="background-color: #4B9CD3; padding: 0 0 300px 0"></td></tr>
+                        <tr><td style="background-color: #4682B4; padding: 0 0 70px 0"></td></tr>
+                    </table>
+                </td>
+            
+                <td id="innertable">
+                    <table class="table1">
+                        
+                        <tr>
+                            <td style="border: none;"></td>
+                            <td style="border: none; font-family: Arial; font-size: 30px; padding: 0 0 20px 20px">Login with</td>
+                            <td style="border: none;"></td>
+                            </tr>
+                        <tr>
+                            <td style="background-color: red; color: white">Google+</td>
+                            <td style="background-color: blue; color: white">Facebook</td>
+                            <td style="background-color: grey; color: white">Github</td>
+                        </tr>
+                    </table>
+                    <table class="table2">
+                            <tr><td  id="one">Email</td></tr>
+                            <tr><td  id="two">Password</td></tr>
+                    </table>
+                    <table class="table3">
+                            <tr><td  style="background-color: skyblue; color: white" id="three">LOG IN</td></tr>
+                            <tr><td style="padding-left: 65px; font-family: Arial; padding-top: 10px">Forgot password ?</td></tr> 
+                    </table>
+                    <table class="table4">
+                        <tr>
+                            <td id="four">Don't have account yet? Register</td>
+                        </tr>
+                    </table>
+                </td>
             </tr>
         </table>
     </body>
